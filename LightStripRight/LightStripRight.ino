@@ -18,7 +18,7 @@ static const char* fingerprint PROGMEM = "DF 12 7C 16 41 3D 8C 87 0D 8A 40 DE FD
 
 const char* MQTT_SERVER = "mqtt.nextservices.dk";
 const uint16_t MQTT_PORT = 8883; 
-const char* MQTT_CLIENT_ID = "FAMSLightL";
+const char* MQTT_CLIENT_ID = "FAMSLightR";
 
 WiFiClientSecure wifiClient;
 PubSubClient pubSubClient(wifiClient);
