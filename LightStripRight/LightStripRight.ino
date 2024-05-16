@@ -7,7 +7,7 @@
 #define Neopixel_PIN 32
 #define NUM_LEDS     60
 
-int brightness = 127;
+int brightness = 63;
 
 CRGB leds[NUM_LEDS];
 
